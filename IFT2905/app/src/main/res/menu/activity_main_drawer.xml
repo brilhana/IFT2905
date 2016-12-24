@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/drawer">
+        <item
+            android:id="@+id/nav_favorites"
+            android:icon="@drawable/action_toggle_black"
+            android:title="Favorites" />
+        <group android:id="@+id/ratings">
+            <item
+                android:id="@+id/nav_7"
+                android:icon="@drawable/ic_filter_7_black_24dp"
+                android:title="+7" />
+            <item
+                android:id="@+id/nav_8"
+                android:icon="@drawable/ic_filter_8_black_24dp"
+                android:title="+8" />
+            <item
+                android:id="@+id/nav_9"
+                android:icon="@drawable/ic_filter_9_black_24dp"
+                android:title="+9" />
+        </group>
+        <group android:checkableBehavior="single" android:id="@+id/actions">
+        <item
+            android:id="@+id/nav_nearest"
+            android:icon="@drawable/ic_nearest"
+            android:title="Nearest" />
+        <item
+            android:id="@+id/nav_top"
+            android:icon="@drawable/ic_ratings"
+            android:title="Best" />
+        <item
+            android:id="@+id/nav_random"
+            android:icon="@drawable/ic_random"
+            android:title="Random" />
+        </group>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+    </group>
+
+</menu>

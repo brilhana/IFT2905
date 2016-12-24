@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/sort_alpha"
+        android:orderInCategory="101"
+        android:title="Sort by Alpha"
+        android:layout_gravity="right"
+        android:icon="@drawable/ic_sort_by_alpha_white_36dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sort_city"
+        android:orderInCategory="101"
+        android:title="Sort by City"
+        android:layout_gravity="right"
+        android:icon="@drawable/ic_location_city_white_36dp"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sort_distance"
+        android:orderInCategory="101"
+        android:title="Sort by Distance"
+        android:layout_gravity="right"
+        android:icon="@drawable/action_nearest"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/sort_rating"
+        android:orderInCategory="101"
+        android:title="Sort by Rating"
+        android:layout_gravity="right"
+        android:icon="@drawable/action_top3"
+        app:showAsAction="always" />
+
+</menu>

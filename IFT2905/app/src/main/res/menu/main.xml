@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/favorites"
+        android:orderInCategory="101"
+        android:title="Favorites"
+        android:layout_gravity="right"
+        android:icon="@drawable/action_toggle_white"
+        app:showAsAction="always" />
+
+</menu>
+
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto">-->
+    <!--<item-->
+        <!--android:id="@+id/action_nearest"-->
+        <!--android:orderInCategory="101"-->
+        <!--android:title="Nearest"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:icon="@drawable/action_nearest"-->
+        <!--app:showAsAction="always" />-->
+    <!--<item-->
+        <!--android:id="@+id/action_top3"-->
+        <!--android:orderInCategory="102"-->
+        <!--android:title="Top 3"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:icon="@drawable/action_top3"-->
+        <!--app:showAsAction="always" />-->
+    <!--<item-->
+        <!--android:id="@+id/action_random"-->
+        <!--android:orderInCategory="103"-->
+        <!--android:title="Random"-->
+        <!--android:layout_gravity="center"-->
+        <!--android:icon="@drawable/action_random"-->
+        <!--app:showAsAction="always" />-->
+    <!--&lt;!&ndash;<item&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/action_settings"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:orderInCategory="104"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:title="@string/action_settings"&ndash;&gt;-->
+        <!--&lt;!&ndash;app:showAsAction="never" />&ndash;&gt;-->
+
+<!--</menu>-->
